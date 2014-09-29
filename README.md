@@ -23,19 +23,19 @@ The output of the application:
     00:00 TDS	State change: LoggedInSendingInitialSql -> LoggedIn
     00:00 >>>	select getdate()
     00:00 TDS	State change: LoggedIn -> SentClientRequest
-    00:00 <<<	Mon Sep 29 2014 12:06:33 GMT+0200 (CEST)
+    00:00 &lt;&lt;&lt;	Mon Sep 29 2014 12:06:33 GMT+0200 (CEST)
     00:00 TDS	State change: SentClientRequest -> LoggedIn
     01:00 >>>	select getdate()
     01:00 TDS	State change: LoggedIn -> SentClientRequest
-    01:00 <<<	Mon Sep 29 2014 12:07:34 GMT+0200 (CEST)
+    01:00 &lt;&lt;&lt;	Mon Sep 29 2014 12:07:34 GMT+0200 (CEST)
     01:00 TDS	State change: SentClientRequest -> LoggedIn
     03:00 >>>	select getdate()
     03:00 TDS	State change: LoggedIn -> SentClientRequest
-    03:00 <<<	Mon Sep 29 2014 12:09:34 GMT+0200 (CEST)
+    03:00 &lt;&lt;&lt;	Mon Sep 29 2014 12:09:34 GMT+0200 (CEST)
     03:00 TDS	State change: SentClientRequest -> LoggedIn
     06:00 >>>	select getdate()
     06:00 TDS	State change: LoggedIn -> SentClientRequest
-    06:00 <<<	Mon Sep 29 2014 12:12:34 GMT+0200 (CEST)
+    06:00 &lt;&lt;&lt;	Mon Sep 29 2014 12:12:34 GMT+0200 (CEST)
     06:00 TDS	State change: SentClientRequest -> LoggedIn
     10:00 >>>	select getdate()
     10:00 TDS	State change: LoggedIn -> SentClientRequest
