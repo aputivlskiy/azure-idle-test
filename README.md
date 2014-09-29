@@ -11,6 +11,7 @@ Even after ATTENTION message have been sent by a driver, nothing changed.
 
 
 The output of the application:
+<pre>
     node index.js
     00:00 TDS	connected to u75hzci8pr.database.windows.net:1433
     00:00 TDS	State change: Connecting -> SentPrelogin
@@ -39,5 +40,6 @@ The output of the application:
     10:00 >>>	select getdate()
     10:00 TDS	State change: LoggedIn -> SentClientRequest
     10:15 TDS	State change: SentClientRequest -> SentAttention
+</pre>
 
-Project also contains the TCP capture info from Wireshart (*idletest.pcap*).
+Project also contains the TCP capture info from Wireshart (*idletest.pcap*). It's easy to see, server is not returning any result for a last request.
