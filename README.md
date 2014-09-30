@@ -42,4 +42,4 @@ The output of the application:
     10:15 TDS	State change: SentClientRequest -> SentAttention
 </pre>
 
-Project also contains the TCP capture info from Wireshart (*idletest.pcap*). It's easy to see, server is not returning any result for a last request.
+Project also contains the TCP capture info from Wireshark (*idletest.pcap*). It's easy to see, server is not returning any result for a last request.
